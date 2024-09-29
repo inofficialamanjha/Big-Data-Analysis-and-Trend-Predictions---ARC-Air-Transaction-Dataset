@@ -1,0 +1,28 @@
+{
+  "Dataset":
+    {
+      "Original":{
+                   "DatasetPath":"Dataset/Original/Dataset.csv",
+                   "SampleDatasetPath":"Dataset/Original/SampleDataset.csv"
+      },
+      "Processed":
+      {
+          "SampleDataset": "Dataset/Processed/SampleDataset/SampleDataset.csv"
+      }
+    },
+  "Utilities":
+    {
+      "Dataset":
+        {
+          "Original":
+            {
+              "AirportCodes":"Utilities/Dataset/Original/AirportCodes.csv"
+            },
+          "Processed":
+            {
+              "AirportCodes": "Utilities/Dataset/Processed/AirportCodes.csv",
+              "TransactionKeyTripType" : "Utilities/Dataset/Processed/TransactionKeyTripType.csv"
+            }
+        }
+    }
+}
